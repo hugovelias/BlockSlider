@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DEMO</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <!-- ! -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+        <!-- ! -->
+	<script type="text/javascript" src="js/block-slider/BlockSlider0.1.js"></script>
+	<!-- ! -->
+	<script type="text/javascript">
+            //
+            $(document).ready(function() {
+                //
+                $("#exampleSlider").BlockSlider({
+                    dataURL:            'data.txt',
+                    buttonShow:         true,
+                    gridItemWidth:      200,
+                    gridItemHeight:     200,
+                    gridMaxRows:        2,
+                    gridMaxCols:        2
+                });
+                //
+            });	
+            //
+	</script>
+	
+<link href="js/block-slider/BlockSlider.css" rel="stylesheet" type="text/css"/>
+	
+</head>
+<body>
+
+    BLOCK SLIDER
+	
+    <div id="exampleSlider" class="blockSlider" style="left:120px; top:120px; position: absolute;">
+
+        <div class="scroll">
+
+        </div>
+
+    </div>		
+
+
+</body>
+</html>

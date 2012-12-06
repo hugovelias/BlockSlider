@@ -1,0 +1,53 @@
+
+    .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+        margin:0;
+        padding:0;
+        display:block;
+        overflow:hidden;
+        text-indent:-8000px;
+        }
+            
+    /* style here */
+    
+    .blockSlider {                
+        
+    }
+    
+    .scroll {        
+        
+    }
+			
+    .contentBox {
+        
+    }
+    
+    .contentLink {
+        
+    }
+    
+    .contentImage {
+        
+    }
+    
+    .contentTitle {
+        font-family: Arial;
+        font-style: Normal;
+        font-size: 14px;
+        color: black;
+    }
+    
+    .contentSubtitle {
+        font-family: Arial;
+        font-style: Italic;
+        font-size: 12px;
+        color: black;
+    }
+    
+    .contentDescription {
+        font-family: Arial;
+        font-style: Normal;
+        font-size: 10px;
+        color: black;
+    }
+    
+    
